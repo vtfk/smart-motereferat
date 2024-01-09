@@ -1,0 +1,29 @@
+{
+  "name": "smart-motereferat",
+  "version": "1.0.0",
+  "description": "Handle publishing and archiving of motereferater",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vtfk/smart-motereferat.git"
+  },
+  "author": "jorgtho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vtfk/smart-motereferat/issues"
+  },
+  "homepage": "https://github.com/vtfk/smart-motereferat#readme",
+  "dependencies": {
+    "@vestfoldfylke/msal-token": "^1.0.1",
+    "@vtfk/logger": "^6.0.1",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "file-system-cache": "^2.4.4"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
+  }
+}
